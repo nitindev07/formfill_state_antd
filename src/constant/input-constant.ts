@@ -1,0 +1,47 @@
+export const jobPositionInputs = [
+    {
+      label: "Title",
+      value: "",
+      type: "text",
+      key: "title",
+      required: true,
+      placeholder: "Title",
+    },
+    {
+      label: "Code",
+      value: "",
+      type: "number",
+      key: "code",
+      required: true,
+      placeholder: "Code",
+    },
+    {
+      label: "Date",
+      value: "",
+      type: "date",
+      key: "sdate",
+      required: true,
+      placeholder: "start date",
+    },
+    {
+      type: "toggler",
+      key: "job_status",
+      required: true,
+      onActive: "Active",
+      onDeactive: "Deactive",
+    },
+    {
+      label: "Content",
+      value: "",
+      type: "textarea",
+      key: "description",
+      required: true,
+      placeholder: "5000 character max",
+    },
+    {
+      label: "Attachmnet",
+      value: "",
+      type: "choosefile",
+      key: "attachment",
+    },
+  ];
